@@ -11,7 +11,7 @@ public class MainApp {
 		 * 
 		 * @fecha 07/04/2022
 		 * 
-		 * @version 0.0.0.1
+		 * @version 0.0.0.2
 		 * 
 		 * Flujo del programa 1. Crear un método que convierta un número base decimal a
 		 * binario. Le pasaremos una variable entera como parámetro y nos devolverá un
@@ -52,7 +52,6 @@ public class MainApp {
 	public static void devolverBinarioFor(int datoDecimalIntFor) {
 
 		String numeroBinario = "";
-		int total = 0;
 
 		/* String sin invertir */
 		while (datoDecimalIntFor > 0) {
